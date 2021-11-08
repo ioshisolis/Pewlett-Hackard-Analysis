@@ -25,7 +25,7 @@ SELECT
 	ti.from_date,
 	ti.to_date
 -- Create a new table using the INTO clause.
-INTO retirement_titles
+-- INTO retirement_titles
 -- Join both tables on the primary key.
 	FROM employees AS e
 	INNER JOIN titles AS ti
@@ -45,7 +45,7 @@ SELECT DISTINCT ON (emp_no )
 	first_name,
 	last_name,
 	title
-INTO unique_titles
+-- INTO unique_titles
 FROM retirement_titles
 ORDER BY emp_no ASC, to_date DESC;
 
@@ -119,5 +119,24 @@ SELECT COUNT (emp_no)
 FROM mentorship_eligibility;
 SELECT COUNT (emp_no)
 FROM unique_titles;
+
+
+
+SELECT * FROM retirement_info;
+SELECT * FROM dept_info;
+-- Managers soon to retire
+SELECT * FROM unique_titles
+WHERE (title = 'Manager');
+
+
+SELECT * FROM mentorship_eligibility;
+
+-- Who are the Senior Manager For the Mentorship Program and how many?
+SELECT * FROM mentorship_eligibility
+WHERE (title = 'Senior Engineer');
+
+SELECT COUNT (emp_no)
+FROM mentorship_eligibility
+WHERE (title = 'Senior Engineer');
 
 
