@@ -26,14 +26,17 @@ This challange consists on two assigments:
 ## Summary: Provide high-level responses to the following questions, then provide two additional queries or tables that may provide more insight into the upcoming "silver tsunami."
 
 > According to the retiring_titles table we can se that managers seem to be pretty young, beacause there is only 2 of them ready to retire. 
-![retiring_titles](https://user-images.githubusercontent.com/37987602/140682757-8495c3c9-6dca-4183-b6b3-4f61ae296c46.png)
+> 
+> ![retiring_titles](https://user-images.githubusercontent.com/37987602/140682757-8495c3c9-6dca-4183-b6b3-4f61ae296c46.png)
 
 
 ### How many roles will need to be filled as the "silver tsunami" begins to make an impact?
 > According to the unique_titles table there are 90,398 employees soon to retire
+> 
 > ![unique_titles_count](https://user-images.githubusercontent.com/37987602/140682391-2bc6545c-fbb7-4fb9-aa1a-b871cad5a3b9.png)
 
 ### Are there enough qualified, retirement-ready employees in the departments to mentor the next generation of Pewlett Hackard employees?
-> According to the mentorship_eligibilty table there are 1,549, unfortunaly for the managmenet department there are obnly two soon to retire. 
+> According to the mentorship_eligibilty table there are 1,549, unfortunaly for the managmenet department there are obnly two soon to retire.
+>  
 >  ![mentorship_eligibility](https://user-images.githubusercontent.com/37987602/140683005-65ea4216-070a-43b7-a2b5-1316bae2b15a.png)
 
