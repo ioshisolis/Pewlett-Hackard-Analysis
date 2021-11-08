@@ -23,7 +23,7 @@ This challange consists on two assigments:
     - Must hold the current employees who were born between January 1, 1965 and December 31, 1965.
 
 
-## Summary: Provide high-level responses to the following questions, then provide two additional queries or tables that may provide more insight into the upcoming "silver tsunami."
+## Summary:
 
 > According to the retiring_titles table we can se that managers seem to be pretty young, beacause there is only 2 of them ready to retire. 
 > 
@@ -40,3 +40,8 @@ This challange consists on two assigments:
 >  
 >  ![mentorship_eligibility](https://user-images.githubusercontent.com/37987602/140683005-65ea4216-070a-43b7-a2b5-1316bae2b15a.png)
 
+## Additional queries or tables that may provide more insight:
+
+![Two Managers](https://user-images.githubusercontent.com/37987602/140686218-f4533aed-04d8-4889-bbb7-6e63227f0900.png)
+
+![Senior_Engineer_Mentorship_Elegibility](https://user-images.githubusercontent.com/37987602/140689011-95b80029-607c-4132-9e8d-5258f3712d2f.png)
