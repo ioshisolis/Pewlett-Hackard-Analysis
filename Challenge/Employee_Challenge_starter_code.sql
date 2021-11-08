@@ -87,7 +87,7 @@ SELECT DISTINCT ON (emp_no )
 -- Retrieve the column from the Titles table
 	ti.title
 -- Create a new table
-INTO mentorship_eligibility
+-- INTO mentorship_eligibility
 -- Join the Employees and the Department Employee tables on the primary key.
 FROM employees AS e
 INNER JOIN dept_emp AS de
@@ -99,3 +99,25 @@ INNER JOIN titles AS ti
 WHERE (ti.to_date = '9999-01-01') 
 AND(e.birth_date BETWEEN '1965-01-01' AND '1965-12-31')
 ORDER BY (emp_no);
+
+
+
+
+SELECT * FROM retirement_titles;
+SELECT * FROM retiring_titles;
+SELECT * FROM titles;
+SELECT * FROM current_emp;
+SELECT * FROM unique_titles;
+SELECT * FROM mentorship_eligibility;
+
+
+SELECT COUNT (emp_no)
+FROM retirement_titles;
+SELECT COUNT (emp_no)
+FROM retiring_titles;
+SELECT COUNT (emp_no)
+FROM mentorship_eligibility;
+SELECT COUNT (emp_no)
+FROM unique_titles;
+
+
